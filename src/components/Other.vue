@@ -3,10 +3,8 @@
   <div class="other">
     <h2>People</h2>
     go to a <router-link to="/greeting">Random Person</router-link>
-     
     or go to <router-link to="/greeting/squidward">squidward tentacles</router-link>
   </div>
-   
 </template>
 
 <script>
@@ -14,7 +12,6 @@ export default {
   name: 'Other',
   data () {
     return {
-     
     }
   }
 }
